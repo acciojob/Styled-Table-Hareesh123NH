@@ -1,1 +1,21 @@
 /* your code */
+ table {
+	 width: 100%;
+	 border-collapse:collapse;
+	 border-radius:10px;
+        }
+th, td {
+	text-align: left;
+	padding: 8px;
+
+	    }
+th {
+	background-color: #2f5487;
+	color: white;
+        }
+tr:nth-child(odd) {
+	background-color: #f2f2f2;
+        }
+tr:nth-child(even) {
+	background-color: white;
+        }
